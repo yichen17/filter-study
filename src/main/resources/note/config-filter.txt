@@ -1,0 +1,2 @@
+1、配置类同名，只会加载一个配置。  首字母大小写能区分配置，但是bean注入忽略  示例 =》  FilterConfig
+2、过滤器同名，只会加载一个过滤器 filterRegistrationBean    大小写敏感  示例 =》     CustomerFilter
